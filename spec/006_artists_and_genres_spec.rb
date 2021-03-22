@@ -1,4 +1,5 @@
 require "spec_helper"
+
 describe "Associations — Artist and Genre:" do
   let(:genre) { Genre.new("indie rock") }
   let(:other_genre) { Genre.new("electro pop") }
